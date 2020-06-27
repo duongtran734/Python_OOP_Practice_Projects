@@ -149,7 +149,6 @@ class Course:
         self.price = value
 
     # get the number of student to add to the database
-
 # Get number of student to add to database
 def num_student():
     while 1:
@@ -176,7 +175,6 @@ def prompt():
 4 - Student summary
 5 - To quit\n"""))
     return choice
-
 if __name__ == "__main__":
     database = []
     print("\nStudent Database Application\n")
